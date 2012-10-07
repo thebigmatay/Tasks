@@ -1,0 +1,5 @@
+DROP TABLE IF EXISTS tasks;
+CREATE TABLE tasks(id INTEGER PRIMARY KEY ASC, title TEXT, description TEXT, completed INTEGER, assigned_id INTEGER);
+
+DROP TABLE IF EXISTS users;
+CREATE TABLE users(id INTEGER PRIMARY KEY ASC, name TEXT, email TEXT);
